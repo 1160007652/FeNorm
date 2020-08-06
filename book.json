@@ -1,0 +1,30 @@
+{
+  "title": "Fe-Norm",
+  "description": "前端规范",
+  "author": "Muniz",
+  "language": "zh-hans",
+  "root": ".",
+
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-plus",
+    "anchor-navigation-ex-toc",
+    "expandable-chapters",
+    "chapter-fold",
+    "splitter",
+    "lightbox",
+    "hide-element",
+    "insert-logo"
+  ],
+
+  "pluginsConfig": {
+    "hide-element": {
+      "elements": [".gitbook-link"]
+    },
+    "insert-logo": {
+      "url": "/assets/images/logo.png",
+      "style": "background: none; max-height: 120px; min-height: 120px"
+    }
+  }
+}
